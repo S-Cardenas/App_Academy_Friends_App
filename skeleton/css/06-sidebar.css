@@ -14,7 +14,6 @@
 	display: block;
 	width: 200px;
 	margin: auto;
-
 }
 
 .profile-info h1 {
@@ -26,7 +25,7 @@
 
 .profile-nav {
 	padding-top: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 .profile-nav a:hover {
