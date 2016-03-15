@@ -8,6 +8,7 @@ body {
 .header {
 	background-color: #f00;
 	color: #fff;
+	border-bottom: solid 1px #ccc;
 }
 
 .header-nav {
@@ -17,19 +18,19 @@ body {
 
 .header-logo {
 	float: left;
-	border-right: solid 1px #fff;
-	border-left: solid 1px #fff;
+	border-right: solid 1px #ccc;
+	border-left: solid 1px #ccc;
 	font-weight: 700;
 }
 
 .header-list{
 	float: right;
-	border-left: solid 1px #fff;
+	border-left: solid 1px #ccc;
 }
 
 .header-list > li {
 	float: left;
-	border-right: solid 1px #fff;
+	border-right: solid 1px #ccc;
 	position: relative;
 }
 
