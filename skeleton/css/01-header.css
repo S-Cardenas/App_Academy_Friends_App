@@ -17,7 +17,6 @@ body {
 
 .header-logo {
 	float: left;
-	padding: 10px 20px 10px 20px;
 	border-right: solid 1px #fff;
 	border-left: solid 1px #fff;
 	font-weight: 700;
@@ -31,14 +30,18 @@ body {
 .header-list > li {
 	float: left;
 	border-right: solid 1px #fff;
+	position: relative;
 }
 
-.header-list > li:hover {
-
+.header-nav li:hover {
 	background-color: #000;
 }
 
-.header-list > li > a {
+.header-logo:hover {
+	background-color: #000;
+}
+
+.header-nav a {
 	display: block;
-	padding: 10px 20px 10px 20px;
+	padding: 10px 20px;
 };
